@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  img {
+    padding: 10px;
+    height: 80vh;
+    width: 160vh;
+    object-fit: cover;
+  }
+  .headText {
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    left: 5vh;
+    top: 5vh;
+    color: white;
+  }
+  section {
+    position: relative;
+    width: 160vh;
+  }
+  section div {
+    position: absolute;
+    bottom: 40px;
+    left: 10vh;
+    color: white;
+    width: 100vh;
+  }
+  section div p{
+    padding: 20px 0px;
+  }
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+  .navBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  button{
+    font-size: 25px;
+    padding: 5px 10px;
+  }
+  .navBar p{
+    background-color: rgb(209, 208, 208);
+    padding: 5px 10px;
+    transition: all 0.5s;
+  }
+  .navBar p:hover{
+    border-radius: 100%;
+    background-color: rgb(91, 91, 91);
+  }
