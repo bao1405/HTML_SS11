@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+
+.highlights {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.highlights h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlights h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+.club-ranking {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.club-ranking h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.club-ranking table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.club-ranking th,
+.club-ranking td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.club-ranking th {
+    background-color: #f2f2f2;
+}
+
+.club-ranking tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
